@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "bakiyeler",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "kullanicilar",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "isim",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "yas",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "miktar",
+						"type": "uint256"
+					}
+				],
+				"name": "paraCek",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "miktar",
+						"type": "uint256"
+					}
+				],
+				"name": "paraYatir",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"finalcase.sol": "Banka"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"finalcase.sol": {
+			"keccak256": "0x772855c9eb85d1dfa1303b2bc5bd071434af3ce4842e672957faa178a8b2ddc6",
+			"urls": [
+				"bzz-raw://280916603c3003bdbf137e2c846f500e4c0d00b1b88120c206b9397db4abfc97",
+				"dweb:/ipfs/QmPMydqo5ZhvKGyyXag1Ey7xMWQHkh9HvHBocxcikBcUaS"
+			]
+		}
+	},
+	"version": 1
+}
